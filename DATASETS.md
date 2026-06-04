@@ -58,13 +58,29 @@ Ao compartilhar este arquivo fora do repositório, indique a fonte original e qu
 | **Contexto** | Dados fictícios de telecomunicações (IBM Sample Datasets) |
 | **Fonte comum (Kaggle)** | https://www.kaggle.com/datasets/blastchar/telco-customer-churn |
 | **Referência IBM** | https://community.ibm.com/community/user/blogs/steven-macko/2019/07/11/telco-customer-churn-1113 |
-| **Uso neste repo** | Reservado para labs futuros (quando publicado no README) |
+| **Uso neste repo** | Lab 03 — EDA e limpeza semi-guiada |
 
 A IBM não publica, em geral, uma licença dedicada só para o CSV; o dataset circula amplamente em material educacional e na Kaggle. **Antes de uso comercial ou redistribuição ampla**, confira os termos na página do dataset na Kaggle e as [regras de uso de conteúdo da plataforma](https://www.kaggle.com/terms).
 
 **Atribuição sugerida:**
 
 > Telco Customer Churn — IBM Sample Datasets / [blastchar no Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
+
+---
+
+## `telco_customer_churn_clean.csv`
+
+| Campo | Informação |
+|-------|------------|
+| **Origem** | Derivado de `ml_telco_customer_churn.csv` após tratamento no Lab 03 |
+| **Referência de licença** | Mesma fonte do dataset Telco original (Kaggle / IBM Sample) |
+| **Uso neste repo** | Lab 04 — classificação com scikit-learn |
+
+**Atribuição sugerida:**
+
+> Baseado em *Telco Customer Churn* (IBM Sample Datasets / Kaggle), com limpeza e ajustes para fins educacionais neste repositório.
+
+Ao redistribuir, cite a fonte Kaggle/IBM e indique que é uma **versão modificada** para aula.
 
 ---
 

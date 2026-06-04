@@ -15,6 +15,8 @@
   <img src="https://img.shields.io/badge/Matplotlib-visualização-11557c" alt="Matplotlib" />
   <img src="https://img.shields.io/badge/Google-Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Google Colab" />
   <img src="https://img.shields.io/badge/Uso-educacional-blue" alt="Uso educacional" />
+  <img src="https://img.shields.io/badge/Licença-MIT-green.svg" alt="MIT License" />
+  <img src="https://img.shields.io/badge/Dados-CC_BY--SA_4.0-EF9423?logo=creativecommons&logoColor=white" alt="Dados CC BY-SA 4.0" />
 </p>
 
 ---
@@ -134,7 +136,18 @@ Não é necessário instalar Python localmente para seguir os labs, desde que o 
 
 ## Contribuição e evolução
 
-Novos datasets entram em `data/`; novos notebooks em `notebooks/` (ou na raiz, até a pasta existir). Ao adicionar um CSV, atualize a tabela **Datasets disponíveis** neste README.
+Novos datasets entram em `data/`; novos notebooks em `notebooks/` (ou na raiz, até a pasta existir). Ao adicionar um CSV, atualize a tabela **Datasets disponíveis** neste README e a seção correspondente em **[DATASETS.md](DATASETS.md)** (fonte Kaggle, licença e atribuição).
+
+---
+
+## Licença
+
+| Conteúdo | Licença |
+|----------|---------|
+| Notebooks, README e material didático original | [MIT License](LICENSE) |
+| Arquivos em `data/` (Kaggle e derivados) | Licenças dos autores originais — ver **[DATASETS.md](DATASETS.md)** |
+
+O dataset principal da cafeteria (`dirty_cafe_sales.csv`) é **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** (Ahmed Mohamed, Kaggle). A versão limpa `cafe_sales_clean.csv` é obra derivada sob a mesma licença.
 
 ---
 
